@@ -102,7 +102,7 @@ def new_member(bot: Bot, update: Update):
                     "I have been added to this chat - {} with \nID: <pre>{}</pre>".format(chat.title, chat.id),
                     parse_mode=ParseMode.HTML
                 )
-                update.effective_message.reply_text("Thanks for adding me Sweetheart,Join @SabrinaOfficial !")
+                update.effective_message.reply_text("Thanks for adding me Sweetheart !!")
 
             else:
                 # If welcome message is media, send with appropriate function
@@ -589,7 +589,7 @@ replying to the desired media, and calling /setwelcome.
 
 
 
-__mod_name__ = "Welcomes"
+__mod_name__ = "Welcome"
 
 NEW_MEM_HANDLER = MessageHandler(Filters.status_update.new_chat_members, new_member)
 LEFT_MEM_HANDLER = MessageHandler(Filters.status_update.left_chat_member, left_member)
