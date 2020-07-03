@@ -243,10 +243,6 @@ Some memes command!
 /owo: OWO de text
 /stretch: STRETCH de text
 /vapor: owo vapor dis
-/hitler: Quote a message and type this command to make a caption of hitler
-/mock: Does the same as /hitler but spongemock instead
-/kim: Does the same as /hitler but with Kim Jong Un instead (O no plox dont bomb my house)
-/gandhi: gandhi memes
 """
 
 __mod_name__ = "Memes and etc."
