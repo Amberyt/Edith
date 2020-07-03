@@ -261,13 +261,6 @@ __help__ = """
 
  /zal <any text> : zalgofy! your text
 
-/hitler: Quote a message and type this command to make a caption of hitler
-
-/mock: Quote a message and type this command to make a caption of sponhemock 
-
-/kim: Quote a message and type this command to make a caption of Kim Jong Un
-
-/gandhi: Quote a message and type this command to make a caption of Gandhi ji
 
 
 """
