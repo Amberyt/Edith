@@ -1,5 +1,5 @@
 {
-  "name": "Sabrina",
+  "name": "Edith",
   "description": "Advanced Group Modular bot for Telegram",
   "keywords": [
     "telegram",
@@ -8,7 +8,7 @@
     "manager",
     "3"
   ],
-  "repository": "https://github.com/TechnoAyanOfficial/MissSabrina",
+  "repository": "https://github.com/neerajregmi10/Edith",
   "env": {
     "ENV": {
       "description": "Setting this to ANYTHING will enable env variables",
@@ -19,12 +19,12 @@
       "value": ""
     },
     "OWNER_ID": {
-      "description": "Go to @MissSabrina_Bot And Type /id to get your id",
+      "description": "Go to any And Type /id to get your id",
       "value": "1111847352"
     },
     "OWNER_USERNAME": {
       "description": "Your username",
-      "value": "TechnoAyanOfficial"
+      "value": "Edith"
     },
     "MESSAGE_DUMP": {
       "description": "optional: a chat where your replied saved messages are stored, to stop people deleting their old",
@@ -44,7 +44,7 @@
     },
     "DONATION_LINK": {
       "description": "Optional: link where you would like to receive donations.",
-      "value": "https://t.me/TechnoAyanOfficial"
+      "value": "https://t.me/lol"
     },
     "PORT": {
       "description": "Port to use for your webhooks",
