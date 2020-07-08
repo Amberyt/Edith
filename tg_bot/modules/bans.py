@@ -80,7 +80,8 @@ def ban(bot: Bot, update: Update, args: List[str]) -> str:
     if user_id == bot.id:
         message.reply_text("I'm not gonna BAN myself, are you crazy?")
         return ""
-    elif user_id == OWNER_ID:
+    
+    if user_id == OWNER_ID:
         message.reply_text("Haha, you know what I ain't gonna do, ban my Boss?")
         return ""
 
@@ -105,7 +106,7 @@ def ban(bot: Bot, update: Update, args: List[str]) -> str:
     except BadRequest as excp:
         if excp.message == "Reply message not found":
             # Do not reply
-            message.reply_text('Banned!', quote=False)
+            message.reply_text('Banned!', quote=True)
             return log
         else:
             LOGGER.warning(update)
